@@ -24,8 +24,8 @@ public class PostmanPostController {
     }
 
     // You can test this endpoint through Postman.
-    // Use "raw" tab with the necessary data in a JSON format.
-    // @RequestBody ensures that this endpoint can accept JSON format.
+    // Use "raw" tab with the necessary data in a JSON or XML format.
+    // @RequestBody ensures that this endpoint can accept JSON or XML format.
     // (But can no longer accept form format)
     @PostMapping("/addCoder")
     public Coder addCoderDefault(@RequestBody Coder coder) {

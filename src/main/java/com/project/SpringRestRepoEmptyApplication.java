@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringRestRepoEmptyApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(SpringRestRepoEmptyApplication.class, args);
+
     }
 
 }
